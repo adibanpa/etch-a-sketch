@@ -4,7 +4,8 @@
   align-items: center;
 }
 .cols {
-  width: 50px;
+  width: 30px;
+  height: 30px;
   background: dodgerblue;
   border: 1px solid midnightblue;
 }

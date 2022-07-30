@@ -16,7 +16,6 @@ for (let i = 0; i < gridsize; i++){
 
     const coldiv = document.createElement("div");
     coldiv.setAttribute('id', `${j+1}`);
-    coldiv.textContent = `${j+1}`;
     coldiv.classList.add('cols');
     coldiv.addEventListener('mouseover', function(e) {
       e.target.style.background = 'yellow';
@@ -28,10 +27,8 @@ for (let i = 0; i < gridsize; i++){
 
 function resett(){
   const cells = document.querySelectorAll('.cols');
+  cells.forEach((cell) => {
+    cell.style.background = 'dodgerblue';
+  })
   
 }
-
-// const cells = document.querySelectorAll('.cols');
-// cells.addEventListener('hover', function(e) {
-//   e.target.style.background = 'yellow';
-// });
