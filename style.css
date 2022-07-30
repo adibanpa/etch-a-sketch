@@ -1,0 +1,13 @@
+.rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cols {
+  width: 50px;
+  background: dodgerblue;
+  border: 1px solid midnightblue;
+}
+/* .cols:hover {
+  background-color: yellow;
+} */
