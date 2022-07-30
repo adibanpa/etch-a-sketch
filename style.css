@@ -1,14 +1,21 @@
-.rows {
+#container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 500px;
+  min-height: 500px;
+  align-content: stretch;
+  flex-direction: column;
+}
+.rows {
+  flex: 1;
+  display: flex;
+  align-content: stretch;
+
 }
 .cols {
-  width: 30px;
-  height: 30px;
+  flex: 1;
   background: dodgerblue;
   border: 1px solid midnightblue;
+
 }
-/* .cols:hover {
-  background-color: yellow;
-} */
